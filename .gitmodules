@@ -1,0 +1,29 @@
+# Submodules from objective-git
+[submodule "libgit2"]
+	path = 3rdparty/objective-git/External/libgit2
+	url = https://github.com/libgit2/libgit2.git
+[submodule "ObjectiveGitTests/specta"]
+	path = 3rdparty/objective-git/ObjectiveGitTests/specta
+	url = https://github.com/specta/specta.git
+[submodule "ObjectiveGitTests/expecta"]
+	path = 3rdparty/objective-git/ObjectiveGitTests/expecta
+	url = https://github.com/specta/expecta.git
+[submodule "Configuration"]
+	path = 3rdparty/objective-git/External/Configuration
+	url = https://github.com/jspahrsummers/xcconfigs.git
+[submodule "openssl"]
+	path = 3rdparty/objective-git/External/openssl
+	url = https://github.com/openssl/openssl.git
+[submodule "libssh2"]
+	path = 3rdparty/objective-git/External/libssh2
+	url = git://git.libssh2.org/libssh2.git
+# Submodules from ReactiveCocoa
+[submodule "External/xcconfigs"]
+	path = 3rdparty/rxswift/External/xcconfigs
+	url = https://github.com/jspahrsummers/xcconfigs.git
+[submodule "External/Quick"]
+	path = 3rdparty/rxswift/External/Quick
+	url = https://github.com/github/Quick.git
+[submodule "External/LlamaKit"]
+	path = 3rdparty/rxswift/External/LlamaKit
+	url = https://github.com/ReactiveCocoa/LlamaKit.git
