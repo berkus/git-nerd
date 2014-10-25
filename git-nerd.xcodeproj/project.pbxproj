@@ -12,6 +12,11 @@
 		A5F1A28B19FBC0BF00D593F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F1A28A19FBC0BF00D593F1 /* Images.xcassets */; };
 		A5F1A28E19FBC0BF00D593F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F1A28C19FBC0BF00D593F1 /* Main.storyboard */; };
 		A5F1A29A19FBC0BF00D593F1 /* git_nerdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F1A29919FBC0BF00D593F1 /* git_nerdTests.swift */; };
+		A5F1A4FA19FBDFB100D593F1 /* ObjectiveGit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F1A4F319FBDEBC00D593F1 /* ObjectiveGit.framework */; };
+		A5F1A4FB19FBDFB700D593F1 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F1A49B19FBDD5900D593F1 /* ReactiveCocoa.framework */; };
+		A5F1A4FD19FBE03500D593F1 /* ObjectiveGit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5F1A4F319FBDEBC00D593F1 /* ObjectiveGit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A5F1A4FE19FBE04800D593F1 /* ReactiveCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5F1A49B19FBDD5900D593F1 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A5F1A4FF19FBE04800D593F1 /* ReactiveCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5F1A49F19FBDD5900D593F1 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,7 +27,190 @@
 			remoteGlobalIDString = A5F1A28019FBC0BF00D593F1;
 			remoteInfo = "git-nerd";
 		};
+		A5F1A49A19FBDD5900D593F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F1A49319FBDD5900D593F1 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D04725EA19E49ED7006002AA;
+			remoteInfo = "ReactiveCocoa-Mac";
+		};
+		A5F1A49C19FBDD5900D593F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F1A49319FBDD5900D593F1 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D04725F519E49ED7006002AA;
+			remoteInfo = "ReactiveCocoa-MacTests";
+		};
+		A5F1A49E19FBDD5900D593F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F1A49319FBDD5900D593F1 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D047260C19E49F82006002AA;
+			remoteInfo = "ReactiveCocoa-iOS";
+		};
+		A5F1A4A019FBDD5900D593F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F1A49319FBDD5900D593F1 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D047261619E49F82006002AA;
+			remoteInfo = "ReactiveCocoa-iOSTests";
+		};
+		A5F1A4A919FBDD8000D593F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F1A4A219FBDD8000D593F1 /* LlamaKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FB2F8D8119BF637B00E4C49E;
+			remoteInfo = "LlamaKit-iOS";
+		};
+		A5F1A4AB19FBDD8000D593F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F1A4A219FBDD8000D593F1 /* LlamaKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FB2F8D8C19BF637B00E4C49E;
+			remoteInfo = "LlamaKit-iOSTests";
+		};
+		A5F1A4AD19FBDD8000D593F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F1A4A219FBDD8000D593F1 /* LlamaKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0297D1019D67999009986A9;
+			remoteInfo = "LlamaKit-Mac";
+		};
+		A5F1A4AF19FBDD8000D593F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F1A4A219FBDD8000D593F1 /* LlamaKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0297D1A19D67999009986A9;
+			remoteInfo = "LlamaKit-MacTests";
+		};
+		A5F1A4C919FBDDA200D593F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F1A4C119FBDDA200D593F1 /* Quick.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DAEB6B8E1943873100289F44;
+			remoteInfo = Quick;
+		};
+		A5F1A4CB19FBDDA200D593F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F1A4C119FBDDA200D593F1 /* Quick.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DAEB6B991943873100289F44;
+			remoteInfo = QuickTests;
+		};
+		A5F1A4CD19FBDDA200D593F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F1A4C119FBDDA200D593F1 /* Quick.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5A5D117C19473F2100F6D13D;
+			remoteInfo = "Quick-iOS";
+		};
+		A5F1A4CF19FBDDA200D593F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F1A4C119FBDDA200D593F1 /* Quick.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5A5D118619473F2100F6D13D;
+			remoteInfo = "Quick-iOSTests";
+		};
+		A5F1A4D819FBDDAD00D593F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F1A4D119FBDDAD00D593F1 /* Nimble.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F1A74291940169200FFFC47;
+			remoteInfo = "Nimble-iOS";
+		};
+		A5F1A4DA19FBDDAD00D593F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F1A4D119FBDDAD00D593F1 /* Nimble.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F1A74341940169200FFFC47;
+			remoteInfo = "Nimble-iOSTests";
+		};
+		A5F1A4DC19FBDDAD00D593F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F1A4D119FBDDAD00D593F1 /* Nimble.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F925EAD195C0D6300ED456B;
+			remoteInfo = "Nimble-OSX";
+		};
+		A5F1A4DE19FBDDAD00D593F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F1A4D119FBDDAD00D593F1 /* Nimble.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F925EB7195C0D6300ED456B;
+			remoteInfo = "Nimble-OSXTests";
+		};
+		A5F1A4E019FBDE8600D593F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F1A49319FBDD5900D593F1 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D04725E919E49ED7006002AA;
+			remoteInfo = "ReactiveCocoa-Mac";
+		};
+		A5F1A4E219FBDE9200D593F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F1A4D119FBDDAD00D593F1 /* Nimble.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F925EAC195C0D6300ED456B;
+			remoteInfo = "Nimble-OSX";
+		};
+		A5F1A4E419FBDE9600D593F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F1A4C119FBDDA200D593F1 /* Quick.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DAEB6B8D1943873100289F44;
+			remoteInfo = Quick;
+		};
+		A5F1A4E619FBDE9D00D593F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F1A4A219FBDD8000D593F1 /* LlamaKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D0297D0F19D67999009986A9;
+			remoteInfo = "LlamaKit-Mac";
+		};
+		A5F1A4F219FBDEBC00D593F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F1A4E819FBDEBB00D593F1 /* ObjectiveGitFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = ObjectiveGit;
+		};
+		A5F1A4F419FBDEBC00D593F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F1A4E819FBDEBB00D593F1 /* ObjectiveGitFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 04DB4645133AB57600D9C624;
+			remoteInfo = "ObjectiveGit-iOS";
+		};
+		A5F1A4F619FBDEBC00D593F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F1A4E819FBDEBB00D593F1 /* ObjectiveGitFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88F05A6B16011E5400B7AD1D;
+			remoteInfo = ObjectiveGitTests;
+		};
+		A5F1A4F819FBDF3000D593F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F1A4E819FBDEBB00D593F1 /* ObjectiveGitFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = ObjectiveGit;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A5F1A4FC19FBE01A00D593F1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A5F1A4FE19FBE04800D593F1 /* ReactiveCocoa.framework in CopyFiles */,
+				A5F1A4FF19FBE04800D593F1 /* ReactiveCocoa.framework in CopyFiles */,
+				A5F1A4FD19FBE03500D593F1 /* ObjectiveGit.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A5F1A28119FBC0BF00D593F1 /* git-nerd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "git-nerd.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,6 +222,11 @@
 		A5F1A29319FBC0BF00D593F1 /* git-nerdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "git-nerdTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F1A29819FBC0BF00D593F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5F1A29919FBC0BF00D593F1 /* git_nerdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = git_nerdTests.swift; sourceTree = "<group>"; };
+		A5F1A49319FBDD5900D593F1 /* ReactiveCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveCocoa.xcodeproj; path = 3rdparty/rxswift/ReactiveCocoa.xcodeproj; sourceTree = "<group>"; };
+		A5F1A4A219FBDD8000D593F1 /* LlamaKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LlamaKit.xcodeproj; path = 3rdparty/rxswift/External/LlamaKit/LlamaKit.xcodeproj; sourceTree = "<group>"; };
+		A5F1A4C119FBDDA200D593F1 /* Quick.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Quick.xcodeproj; path = 3rdparty/rxswift/External/Quick/Quick/Quick.xcodeproj; sourceTree = "<group>"; };
+		A5F1A4D119FBDDAD00D593F1 /* Nimble.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Nimble.xcodeproj; path = 3rdparty/rxswift/External/Quick/Externals/Nimble/Nimble.xcodeproj; sourceTree = "<group>"; };
+		A5F1A4E819FBDEBB00D593F1 /* ObjectiveGitFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ObjectiveGitFramework.xcodeproj; path = "3rdparty/objective-git/ObjectiveGitFramework.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +234,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5F1A4FB19FBDFB700D593F1 /* ReactiveCocoa.framework in Frameworks */,
+				A5F1A4FA19FBDFB100D593F1 /* ObjectiveGit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +252,11 @@
 		A5F1A27819FBC0BF00D593F1 = {
 			isa = PBXGroup;
 			children = (
+				A5F1A4E819FBDEBB00D593F1 /* ObjectiveGitFramework.xcodeproj */,
+				A5F1A4D119FBDDAD00D593F1 /* Nimble.xcodeproj */,
+				A5F1A4C119FBDDA200D593F1 /* Quick.xcodeproj */,
+				A5F1A4A219FBDD8000D593F1 /* LlamaKit.xcodeproj */,
+				A5F1A49319FBDD5900D593F1 /* ReactiveCocoa.xcodeproj */,
 				A5F1A28319FBC0BF00D593F1 /* git-nerd */,
 				A5F1A29619FBC0BF00D593F1 /* git-nerdTests */,
 				A5F1A28219FBC0BF00D593F1 /* Products */,
@@ -109,6 +309,60 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A5F1A49419FBDD5900D593F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5F1A49B19FBDD5900D593F1 /* ReactiveCocoa.framework */,
+				A5F1A49D19FBDD5900D593F1 /* ReactiveCocoa-MacTests.xctest */,
+				A5F1A49F19FBDD5900D593F1 /* ReactiveCocoa.framework */,
+				A5F1A4A119FBDD5900D593F1 /* ReactiveCocoa-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5F1A4A319FBDD8000D593F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5F1A4AA19FBDD8000D593F1 /* LlamaKit.framework */,
+				A5F1A4AC19FBDD8000D593F1 /* LlamaKit-iOSTests.xctest */,
+				A5F1A4AE19FBDD8000D593F1 /* LlamaKit.framework */,
+				A5F1A4B019FBDD8000D593F1 /* LlamaKit-MacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5F1A4C219FBDDA200D593F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5F1A4CA19FBDDA200D593F1 /* Quick.framework */,
+				A5F1A4CC19FBDDA200D593F1 /* QuickTests.xctest */,
+				A5F1A4CE19FBDDA200D593F1 /* Quick.framework */,
+				A5F1A4D019FBDDA200D593F1 /* Quick-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5F1A4D219FBDDAD00D593F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5F1A4D919FBDDAD00D593F1 /* Nimble.framework */,
+				A5F1A4DB19FBDDAD00D593F1 /* NimbleTests.xctest */,
+				A5F1A4DD19FBDDAD00D593F1 /* Nimble.framework */,
+				A5F1A4DF19FBDDAD00D593F1 /* Nimble-OSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5F1A4E919FBDEBB00D593F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5F1A4F319FBDEBC00D593F1 /* ObjectiveGit.framework */,
+				A5F1A4F519FBDEBC00D593F1 /* libObjectiveGit-iOS.a */,
+				A5F1A4F719FBDEBC00D593F1 /* ObjectiveGitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,10 +373,16 @@
 				A5F1A27D19FBC0BF00D593F1 /* Sources */,
 				A5F1A27E19FBC0BF00D593F1 /* Frameworks */,
 				A5F1A27F19FBC0BF00D593F1 /* Resources */,
+				A5F1A4FC19FBE01A00D593F1 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A5F1A4E319FBDE9200D593F1 /* PBXTargetDependency */,
+				A5F1A4E519FBDE9600D593F1 /* PBXTargetDependency */,
+				A5F1A4E719FBDE9D00D593F1 /* PBXTargetDependency */,
+				A5F1A4E119FBDE8600D593F1 /* PBXTargetDependency */,
+				A5F1A4F919FBDF3000D593F1 /* PBXTargetDependency */,
 			);
 			name = "git-nerd";
 			productName = "git-nerd";
@@ -176,6 +436,28 @@
 			mainGroup = A5F1A27819FBC0BF00D593F1;
 			productRefGroup = A5F1A28219FBC0BF00D593F1 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A5F1A4A319FBDD8000D593F1 /* Products */;
+					ProjectRef = A5F1A4A219FBDD8000D593F1 /* LlamaKit.xcodeproj */;
+				},
+				{
+					ProductGroup = A5F1A4D219FBDDAD00D593F1 /* Products */;
+					ProjectRef = A5F1A4D119FBDDAD00D593F1 /* Nimble.xcodeproj */;
+				},
+				{
+					ProductGroup = A5F1A4E919FBDEBB00D593F1 /* Products */;
+					ProjectRef = A5F1A4E819FBDEBB00D593F1 /* ObjectiveGitFramework.xcodeproj */;
+				},
+				{
+					ProductGroup = A5F1A4C219FBDDA200D593F1 /* Products */;
+					ProjectRef = A5F1A4C119FBDDA200D593F1 /* Quick.xcodeproj */;
+				},
+				{
+					ProductGroup = A5F1A49419FBDD5900D593F1 /* Products */;
+					ProjectRef = A5F1A49319FBDD5900D593F1 /* ReactiveCocoa.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A5F1A28019FBC0BF00D593F1 /* git-nerd */,
@@ -183,6 +465,142 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A5F1A49B19FBDD5900D593F1 /* ReactiveCocoa.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReactiveCocoa.framework;
+			remoteRef = A5F1A49A19FBDD5900D593F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5F1A49D19FBDD5900D593F1 /* ReactiveCocoa-MacTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ReactiveCocoa-MacTests.xctest";
+			remoteRef = A5F1A49C19FBDD5900D593F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5F1A49F19FBDD5900D593F1 /* ReactiveCocoa.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReactiveCocoa.framework;
+			remoteRef = A5F1A49E19FBDD5900D593F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5F1A4A119FBDD5900D593F1 /* ReactiveCocoa-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ReactiveCocoa-iOSTests.xctest";
+			remoteRef = A5F1A4A019FBDD5900D593F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5F1A4AA19FBDD8000D593F1 /* LlamaKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = LlamaKit.framework;
+			remoteRef = A5F1A4A919FBDD8000D593F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5F1A4AC19FBDD8000D593F1 /* LlamaKit-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "LlamaKit-iOSTests.xctest";
+			remoteRef = A5F1A4AB19FBDD8000D593F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5F1A4AE19FBDD8000D593F1 /* LlamaKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = LlamaKit.framework;
+			remoteRef = A5F1A4AD19FBDD8000D593F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5F1A4B019FBDD8000D593F1 /* LlamaKit-MacTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "LlamaKit-MacTests.xctest";
+			remoteRef = A5F1A4AF19FBDD8000D593F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5F1A4CA19FBDDA200D593F1 /* Quick.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Quick.framework;
+			remoteRef = A5F1A4C919FBDDA200D593F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5F1A4CC19FBDDA200D593F1 /* QuickTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = QuickTests.xctest;
+			remoteRef = A5F1A4CB19FBDDA200D593F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5F1A4CE19FBDDA200D593F1 /* Quick.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Quick.framework;
+			remoteRef = A5F1A4CD19FBDDA200D593F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5F1A4D019FBDDA200D593F1 /* Quick-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Quick-iOSTests.xctest";
+			remoteRef = A5F1A4CF19FBDDA200D593F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5F1A4D919FBDDAD00D593F1 /* Nimble.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Nimble.framework;
+			remoteRef = A5F1A4D819FBDDAD00D593F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5F1A4DB19FBDDAD00D593F1 /* NimbleTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NimbleTests.xctest;
+			remoteRef = A5F1A4DA19FBDDAD00D593F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5F1A4DD19FBDDAD00D593F1 /* Nimble.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Nimble.framework;
+			remoteRef = A5F1A4DC19FBDDAD00D593F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5F1A4DF19FBDDAD00D593F1 /* Nimble-OSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Nimble-OSXTests.xctest";
+			remoteRef = A5F1A4DE19FBDDAD00D593F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5F1A4F319FBDEBC00D593F1 /* ObjectiveGit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ObjectiveGit.framework;
+			remoteRef = A5F1A4F219FBDEBC00D593F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5F1A4F519FBDEBC00D593F1 /* libObjectiveGit-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libObjectiveGit-iOS.a";
+			remoteRef = A5F1A4F419FBDEBC00D593F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5F1A4F719FBDEBC00D593F1 /* ObjectiveGitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ObjectiveGitTests.xctest;
+			remoteRef = A5F1A4F619FBDEBC00D593F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A5F1A27F19FBC0BF00D593F1 /* Resources */ = {
@@ -228,6 +646,31 @@
 			isa = PBXTargetDependency;
 			target = A5F1A28019FBC0BF00D593F1 /* git-nerd */;
 			targetProxy = A5F1A29419FBC0BF00D593F1 /* PBXContainerItemProxy */;
+		};
+		A5F1A4E119FBDE8600D593F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ReactiveCocoa-Mac";
+			targetProxy = A5F1A4E019FBDE8600D593F1 /* PBXContainerItemProxy */;
+		};
+		A5F1A4E319FBDE9200D593F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Nimble-OSX";
+			targetProxy = A5F1A4E219FBDE9200D593F1 /* PBXContainerItemProxy */;
+		};
+		A5F1A4E519FBDE9600D593F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Quick;
+			targetProxy = A5F1A4E419FBDE9600D593F1 /* PBXContainerItemProxy */;
+		};
+		A5F1A4E719FBDE9D00D593F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LlamaKit-Mac";
+			targetProxy = A5F1A4E619FBDE9D00D593F1 /* PBXContainerItemProxy */;
+		};
+		A5F1A4F919FBDF3000D593F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ObjectiveGit;
+			targetProxy = A5F1A4F819FBDF3000D593F1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
