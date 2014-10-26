@@ -27,3 +27,6 @@
 [submodule "External/LlamaKit"]
 	path = 3rdparty/rxswift/External/LlamaKit
 	url = https://github.com/ReactiveCocoa/LlamaKit.git
+[submodule "3rdparty/Cartography"]
+	path = 3rdparty/Cartography
+	url = git@github.com:robb/Cartography.git
