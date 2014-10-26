@@ -16,7 +16,6 @@
 		A5F1A4FB19FBDFB700D593F1 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F1A49B19FBDD5900D593F1 /* ReactiveCocoa.framework */; };
 		A5F1A4FD19FBE03500D593F1 /* ObjectiveGit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5F1A4F319FBDEBC00D593F1 /* ObjectiveGit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A5F1A4FE19FBE04800D593F1 /* ReactiveCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5F1A49B19FBDD5900D593F1 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A5F1A4FF19FBE04800D593F1 /* ReactiveCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5F1A49F19FBDD5900D593F1 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -205,7 +204,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				A5F1A4FE19FBE04800D593F1 /* ReactiveCocoa.framework in CopyFiles */,
-				A5F1A4FF19FBE04800D593F1 /* ReactiveCocoa.framework in CopyFiles */,
 				A5F1A4FD19FBE03500D593F1 /* ObjectiveGit.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,6 +225,7 @@
 		A5F1A4C119FBDDA200D593F1 /* Quick.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Quick.xcodeproj; path = 3rdparty/rxswift/External/Quick/Quick/Quick.xcodeproj; sourceTree = "<group>"; };
 		A5F1A4D119FBDDAD00D593F1 /* Nimble.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Nimble.xcodeproj; path = 3rdparty/rxswift/External/Quick/Externals/Nimble/Nimble.xcodeproj; sourceTree = "<group>"; };
 		A5F1A4E819FBDEBB00D593F1 /* ObjectiveGitFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ObjectiveGitFramework.xcodeproj; path = "3rdparty/objective-git/ObjectiveGitFramework.xcodeproj"; sourceTree = "<group>"; };
+		A5F1A50019FCE94400D593F1 /* git_nerd-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "git_nerd-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -287,6 +286,7 @@
 		A5F1A28419FBC0BF00D593F1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A5F1A50019FCE94400D593F1 /* git_nerd-Bridging-Header.h */,
 				A5F1A28519FBC0BF00D593F1 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -705,6 +705,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -724,6 +725,8 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SWIFT_INCLUDE_PATHS = "3rdparty/objective-git/External/libgit2/include";
+				SWIFT_OBJC_BRIDGING_HEADER = "git-nerd/git_nerd-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -748,6 +751,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -760,6 +764,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_INCLUDE_PATHS = "3rdparty/objective-git/External/libgit2/include";
+				SWIFT_OBJC_BRIDGING_HEADER = "git-nerd/git_nerd-Bridging-Header.h";
 			};
 			name = Release;
 		};
